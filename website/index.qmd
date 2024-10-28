@@ -1,0 +1,11 @@
+---
+title: "website"
+---
+
+This is a Quarto website. *Isn't that exciting?* If you'd like to see a picture of me (Aviva) go to the "About Aviva Jotzke" tab. It's awesome. You can also learn some information about me (Aviva) and some information about my professor (Nic Schwab). 
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+[This is a link to my first map experimentation](maps/first_map.qmd)
+
+[This is a link to my first "fancy map" experimentation where I added markers to a map](maps/fancy_maps.qmd)

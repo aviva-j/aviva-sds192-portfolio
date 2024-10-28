@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "This is a Quarto website. Isn’t that exciting? If you’d like to see a picture of me (Aviva) go to the “About Aviva Jotzke” tab. It’s awesome. You can also learn some information about me (Aviva) and some information about my professor (Nic Schwab).\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nThis is a link to my first map experimentation\nThis is a link to my first “fancy map” experimentation where I added markers to a map"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Aviva Jotzke",
+    "section": "",
+    "text": "Aviva Jotzke is a junior majoring in Government and Statistical and Data Sciences at Smith College. When not studying, Aviva enjoys spending time with friends, going to concerts, watching the sky, and climbing (rocks and trees)."
+  },
+  {
+    "objectID": "about.html#student-hours",
+    "href": "about.html#student-hours",
+    "title": "Aviva Jotzke",
+    "section": "Student Hours",
+    "text": "Student Hours\nDrop into the office:\n\nWednesday: 1:30-2:30 pm\nBy appointment in McConnell 214\n\nPlease let me know if the above times do not work for your schedule and we can coordinate another time."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Aviva Jotzke",
+    "section": "Education",
+    "text": "Education\n\nMS in Data Science (~2026)\nUniversity of Texas at Austin\nAustin, Texas\nMA in Mathematics (2009)\nAppalchain State University\nBoone, NC\nBA in Mathematics (2007)\nUC Santa Cruz\nSanta Cruz, CA"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Aviva Jotzke",
+    "section": "Experience",
+    "text": "Experience\n\nProfessor of Mathematics\nHolyoke Community College\nHolyoke, MA 2014–2023"
+  },
+  {
+    "objectID": "about.html#more-fun-facts",
+    "href": "about.html#more-fun-facts",
+    "title": "About Aviva Jotzke",
+    "section": "More fun facts",
+    "text": "More fun facts\nAviva is exceptionally good at finding four leaf clovers.\nAviva does probably around 3 cartwheels a day.\nAviva has two younger siblings.\nAviva and from Des Moines, Iowa and is the Midwest’s strongest lover and defender."
+  },
+  {
+    "objectID": "about.html#education-of-avivas-professor-nic-schwab",
+    "href": "about.html#education-of-avivas-professor-nic-schwab",
+    "title": "About Aviva Jotzke",
+    "section": "Education of Aviva’s Professor Nic Schwab",
+    "text": "Education of Aviva’s Professor Nic Schwab\n\nMS in Data Science (~2026)\nUniversity of Texas at Austin\nAustin, Texas\nMA in Mathematics (2009)\nAppalchain State University\nBoone, NC\nBA in Mathematics (2007)\nUC Santa Cruz\nSanta Cruz, CA"
+  },
+  {
+    "objectID": "about.html#experience-of-avivas-professor-nic-schwab",
+    "href": "about.html#experience-of-avivas-professor-nic-schwab",
+    "title": "About Aviva Jotzke",
+    "section": "Experience of Aviva’s Professor Nic Schwab",
+    "text": "Experience of Aviva’s Professor Nic Schwab\n\nProfessor of Mathematics\nHolyoke Community College\nHolyoke, MA 2014–2023"
+  },
+  {
+    "objectID": "maps/first_map.html",
+    "href": "maps/first_map.html",
+    "title": "1st_Maps",
+    "section": "",
+    "text": "Here are some maps from the map package. 1"
+  },
+  {
+    "objectID": "maps/first_map.html#the-world",
+    "href": "maps/first_map.html#the-world",
+    "title": "1st_Maps",
+    "section": "The world",
+    "text": "The world"
+  },
+  {
+    "objectID": "maps/first_map.html#the-us",
+    "href": "maps/first_map.html#the-us",
+    "title": "1st_Maps",
+    "section": "The US",
+    "text": "The US\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou try:\nFirst maps\n\nAdd another map of California, Oregon and Washington.\n\nColor this map. hint: type ?map() into the console to read the documentation.\n\nColor the map with three colors of your choice.\nColor the border only.\n\n\nMake a world map with China, Indonesia and Australia."
+  },
+  {
+    "objectID": "maps/first_map.html#footnotes",
+    "href": "maps/first_map.html#footnotes",
+    "title": "1st_Maps",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://cran.r-project.org/web/packages/maps/maps.pdf↩︎"
+  },
+  {
+    "objectID": "maps/fancy_maps.html",
+    "href": "maps/fancy_maps.html",
+    "title": "Fancier Maps",
+    "section": "",
+    "text": "We can use leaflet to make some fancier maps.\n\n#install.packages(leaflet)\nlibrary(leaflet)\n\nManual here Here is a text on leaflet.\n\nleaflet()|&gt;\n  addTiles()\n\n\n\n\n\nLet’s put Smith College on the map. Here’s the lat and long.\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\nWhooops. We need a negative sign to indicate west.\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\nYou try:\n\nPut your home city and Smith College on the same map.\n\n\nhome_icon &lt;- awesomeIcons()\nschool_icon &lt;- awesomeIcons(icon=\"education\")\n\n#Created a map then added labels to it using first the addMarkers() function and then using the addAwesomeMarkers() function to give them home and school icons. \n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addAwesomeMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Where I go to school &lt;3\",\n             label = \"Smith College\",\n             icon=school_icon) |&gt;\n  addAwesomeMarkers(lng = -93.6250,\n             lat = 41.5868,\n             popup = \"My hometown!\",\n             label = \"Des Moines, Iowa\",\n             icon=home_icon)\n\n\n\n\n\n\nUse awesomeIcons() to make your home look like a home and smith look like a college.\n\nYou will first need to save the icon an object. (Maybe the home is called home).\nHint: Use icon “education”, “book”, “sleeping” for the college icon.\nThen you will need to use addAwesomeMarkers().\n\nFinally add this webpage to your index.qmd and make sure it renders correctly."
+  }
+]
