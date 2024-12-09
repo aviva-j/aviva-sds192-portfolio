@@ -1,4 +1,3 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+/.quarto/
+
+maps/function_map.qmd

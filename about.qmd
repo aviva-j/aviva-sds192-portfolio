@@ -1,0 +1,35 @@
+---
+title: "About Aviva Jotzke"
+about:
+  id: schwab
+  template: trestles
+  image: "aviva-headshot.jpg"
+  links:
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/aviva-j
+    - icon: bookmark
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aviva-jotzke-574778300
+---
+
+## About Aviva
+
+**Aviva Jotzke** is a junior majoring in Government and Statistical and Data Sciences at Smith College. When not studying, Aviva enjoys spending time with friends, going to concerts, watching the sky, and climbing (rocks and trees). 
+
+
+## More fun facts
+
+- Aviva is exceptionally good at finding four leaf clovers. 
+
+- Aviva does probably around 3 cartwheels a day.
+
+- Aviva has two younger siblings.
+
+- Aviva is from Des Moines, Iowa and is the Midwest's strongest lover and defender. 
+
+## Contact information
+
+To contact Aviva, email them at fake.email@gmail.com
+
