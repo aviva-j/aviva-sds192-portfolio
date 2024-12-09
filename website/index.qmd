@@ -1,11 +1,33 @@
 ---
-title: "website"
+title: "Aviva Jotzke Final Website"
+
 ---
 
-This is a Quarto website. *Isn't that exciting?* If you'd like to see a picture of me (Aviva) go to the "About Aviva Jotzke" tab. It's awesome. You can also learn some information about me (Aviva) and some information about my professor (Nic Schwab). 
+![](self.jpg)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hello! My name is Aviva, welcome to my website. Work featured on this site comes primarily from SDS 192: Introduction to Data Science, a class taken at Smith College in the Fall 2024 semester. Below, you can navigate to several projects for this class. You can also learn more about me by clicking the "About Aviva Jotzke" tab above. I look forward to getting to know you!
 
-[This is a link to my first map experimentation](maps/first_map.qmd)
+## Projects in SDS 192:
 
-[This is a link to my first "fancy map" experimentation where I added markers to a map](maps/fancy_maps.qmd)
+#### [Project 1](projects/scorecard_analysis.qmd): working with data from the U.S. Department of Education
+
+![](project-1.png)
+
+#### [Project 2](projects/fec-analysis.qmd): working with data from the FEC
+
+![](project-2.png)
+
+#### [Project 3](projects/mapping.qmd): working with map data
+
+![](project-3.png)
+
+
+## Other work:
+
+During the Fall 2024 semester, I was also a part of GOV/SDS 338: Political Networks. This class was a research seminar. As my final project, I conducted research on informal power in the U.S. House of Representatives. My partner and I looked into whether there was a similar gender-gap in *informal* leadership that is observed in *formal* leadership. Without getting into the details of this research, here are two examples of graphics created for that paper:
+
+![](example-work-2.png)
+
+![](example-work.png)
+
+Note that these graphics do not include a data source as they are part of a larger paper where the data source was explained. 

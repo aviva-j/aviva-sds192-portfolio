@@ -3,47 +3,33 @@ title: "About Aviva Jotzke"
 about:
   id: schwab
   template: trestles
-  image: "WIN_20240909_08_21_57_Pro.jpg"
+  image: "aviva-headshot.jpg"
   links:
 
     - icon: github
       text: GitHub
-      href: https://github.com/Nics-Github
+      href: https://github.com/aviva-j
     - icon: bookmark
-      text: Smith
-      href: https://www.smith.edu/academics/faculty/nicholas-schwab
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aviva-jotzke-574778300
 ---
+
+## About Aviva
 
 **Aviva Jotzke** is a junior majoring in Government and Statistical and Data Sciences at Smith College. When not studying, Aviva enjoys spending time with friends, going to concerts, watching the sky, and climbing (rocks and trees). 
 
+
 ## More fun facts
 
+- Aviva is exceptionally good at finding four leaf clovers. 
 
-Aviva is exceptionally good at finding four leaf clovers. 
+- Aviva does probably around 3 cartwheels a day.
 
-Aviva does probably around 3 cartwheels a day.
+- Aviva has two younger siblings.
 
-Aviva has two younger siblings.
+- Aviva is from Des Moines, Iowa and is the Midwest's strongest lover and defender. 
 
-Aviva and from Des Moines, Iowa and is the Midwest's strongest lover and defender. 
+## Contact information
 
-
-
-## Education of Aviva's Professor Nic Schwab
-
--   MS in Data Science (\~2026)\
-    [University of Texas at Austin](https://cdso.utexas.edu/msds)\
-    Austin, Texas
--   MA in Mathematics (2009)\
-    [Appalchain State University](https://mathsci.appstate.edu/)\
-    Boone, NC
--   BA in Mathematics (2007)\
-    [UC Santa Cruz](https://www.math.ucsc.edu/)\
-    Santa Cruz, CA
-
-## Experience of Aviva's Professor Nic Schwab
-
--   Professor of Mathematics\
-    [Holyoke Community College](https://www.hcc.edu)\
-    Holyoke, MA 2014--2023
+To contact Aviva, email them at fake.email@gmail.com
 

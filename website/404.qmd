@@ -1,0 +1,8 @@
+---
+title: "404 Page"
+format: html
+---
+
+# This is a boring 404 page, sorry.
+
+Want to go back to the exciting porfolio? [CLICK HERE :)](index.qmd)

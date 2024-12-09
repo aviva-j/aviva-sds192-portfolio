@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+        - href: projects/scorecard_analysis.qmd
 
 format:
   html:
