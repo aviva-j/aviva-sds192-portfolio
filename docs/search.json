@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aviva Jotzke Final Website",
+    "section": "",
+    "text": "Hello! My name is Aviva, welcome to my website. Work featured on this site comes primarily from SDS 192: Introduction to Data Science, a class taken at Smith College in the Fall 2024 semester. Below, you can navigate to several projects for this class. You can also learn more about me by clicking the “About Aviva Jotzke” tab above. I look forward to getting to know you!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Aviva Jotzke",
+    "section": "",
+    "text": "Aviva Jotzke is a junior majoring in Government and Statistical and Data Sciences at Smith College. When not studying, Aviva enjoys spending time with friends, going to concerts, watching the sky, and climbing (rocks and trees)."
+  },
+  {
+    "objectID": "about.html#student-hours",
+    "href": "about.html#student-hours",
+    "title": "Aviva Jotzke",
+    "section": "Student Hours",
+    "text": "Student Hours\nDrop into the office:\n\nWednesday: 1:30-2:30 pm\nBy appointment in McConnell 214\n\nPlease let me know if the above times do not work for your schedule and we can coordinate another time."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Aviva Jotzke",
+    "section": "Education",
+    "text": "Education\n\nMS in Data Science (~2026)\nUniversity of Texas at Austin\nAustin, Texas\nMA in Mathematics (2009)\nAppalchain State University\nBoone, NC\nBA in Mathematics (2007)\nUC Santa Cruz\nSanta Cruz, CA"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Aviva Jotzke",
+    "section": "Experience",
+    "text": "Experience\n\nProfessor of Mathematics\nHolyoke Community College\nHolyoke, MA 2014–2023"
+  },
+  {
+    "objectID": "about.html#more-fun-facts",
+    "href": "about.html#more-fun-facts",
+    "title": "About Aviva Jotzke",
+    "section": "More fun facts",
+    "text": "More fun facts\n\nAviva is exceptionally good at finding four leaf clovers.\nAviva does probably around 3 cartwheels a day.\nAviva has two younger siblings.\nAviva is from Des Moines, Iowa and is the Midwest’s strongest lover and defender."
+  },
+  {
+    "objectID": "about.html#education-of-avivas-professor-nic-schwab",
+    "href": "about.html#education-of-avivas-professor-nic-schwab",
+    "title": "About Aviva Jotzke",
+    "section": "Education of Aviva’s Professor Nic Schwab",
+    "text": "Education of Aviva’s Professor Nic Schwab\n\nMS in Data Science (~2026)\nUniversity of Texas at Austin\nAustin, Texas\nMA in Mathematics (2009)\nAppalchain State University\nBoone, NC\nBA in Mathematics (2007)\nUC Santa Cruz\nSanta Cruz, CA"
+  },
+  {
+    "objectID": "about.html#experience-of-avivas-professor-nic-schwab",
+    "href": "about.html#experience-of-avivas-professor-nic-schwab",
+    "title": "About Aviva Jotzke",
+    "section": "Experience of Aviva’s Professor Nic Schwab",
+    "text": "Experience of Aviva’s Professor Nic Schwab\n\nProfessor of Mathematics\nHolyoke Community College\nHolyoke, MA 2014–2023"
+  },
+  {
+    "objectID": "maps/first_map.html",
+    "href": "maps/first_map.html",
+    "title": "1st_Maps",
+    "section": "",
+    "text": "Here are some maps from the map package. 1"
+  },
+  {
+    "objectID": "maps/first_map.html#the-world",
+    "href": "maps/first_map.html#the-world",
+    "title": "1st_Maps",
+    "section": "The world",
+    "text": "The world"
+  },
+  {
+    "objectID": "maps/first_map.html#the-us",
+    "href": "maps/first_map.html#the-us",
+    "title": "1st_Maps",
+    "section": "The US",
+    "text": "The US\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou try:\nFirst maps\n\nAdd another map of California, Oregon and Washington.\n\nColor this map. hint: type ?map() into the console to read the documentation.\n\nColor the map with three colors of your choice.\nColor the border only.\n\n\nMake a world map with China, Indonesia and Australia."
+  },
+  {
+    "objectID": "maps/first_map.html#footnotes",
+    "href": "maps/first_map.html#footnotes",
+    "title": "1st_Maps",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://cran.r-project.org/web/packages/maps/maps.pdf↩︎"
+  },
+  {
+    "objectID": "maps/fancy_maps.html",
+    "href": "maps/fancy_maps.html",
+    "title": "Fancier Maps",
+    "section": "",
+    "text": "We can use leaflet to make some fancier maps.\n\n#install.packages(leaflet)\nlibrary(leaflet)\n\nManual here Here is a text on leaflet.\n\nleaflet()|&gt;\n  addTiles()\n\n\n\n\n\nLet’s put Smith College on the map. Here’s the lat and long.\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\nWhooops. We need a negative sign to indicate west.\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Home of the Pioneers\",\n             label = \"Smith College\")\n\n\n\n\n\nYou try:\n\nPut your home city and Smith College on the same map.\n\n\nhome_icon &lt;- awesomeIcons()\nschool_icon &lt;- awesomeIcons(icon=\"education\")\n\n#Created a map then added labels to it using first the addMarkers() function and then using the addAwesomeMarkers() function to give them home and school icons. \n\nleaflet()|&gt;\n  addTiles() |&gt;\n  addAwesomeMarkers(lng = -72.6403,\n             lat = 42.3163,\n             popup = \"Where I go to school &lt;3\",\n             label = \"Smith College\",\n             icon=school_icon) |&gt;\n  addAwesomeMarkers(lng = -93.6250,\n             lat = 41.5868,\n             popup = \"My hometown!\",\n             label = \"Des Moines, Iowa\",\n             icon=home_icon)\n\n\n\n\n\n\nUse awesomeIcons() to make your home look like a home and smith look like a college.\n\nYou will first need to save the icon an object. (Maybe the home is called home).\nHint: Use icon “education”, “book”, “sleeping” for the college icon.\nThen you will need to use addAwesomeMarkers().\n\nFinally add this webpage to your index.qmd and make sure it renders correctly."
+  },
+  {
+    "objectID": "projects/scorecard_analysis.html",
+    "href": "projects/scorecard_analysis.html",
+    "title": "SDS 192 Mini-Project 1",
+    "section": "",
+    "text": "Cost of Massachusetts Colleges (2022)\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\n\nCost of Attendance for MA Colleges by their Locale Type (2022)\n\nFigure 2\n\n\n\n\n\n\n\n\n\n\n\n\nBlog post\nThe data set we analyzed was from the College Scorecard project, which is designed to help families and students familiarize themselves with college costs and outcomes. College Scorecard provides data about colleges as a whole and files with data on specific study fields within colleges. The College Scorecard obtains its data through federal reporting from institutions, tax information, and data on financial aid. We analyze the relationship between the cost of attending an institution relative to the highest degree one can attain and the location of that institution. As a note, we chose to filter out observations where the average yearly cost of attendance was $0. While it is possible that these colleges offer free tuition, it became apparent–through looking at a sample of colleges–that several schools that reported an average yearly tuition of $0 did in fact have tuition and likely did not report it. For this reason, we treat these schools as missing data and remove them from our analysis.\nIn our first data visualization, we examine the distribution of average yearly cost for colleges in Massachusetts in 2022. The average cost per year is spread between $0 per year and up to as much as $80,000 per year. This indicates there is a wide range in the potential cost of education in Massachusetts. Looking deeper, our second data visualization looks at the average yearly cost of attendance for colleges in MA based on the type of locale the school is in (rural, town, suburb, or city), and the highest degree that institution offers. Immediate conclusions from this data set is that most colleges in MA are in suburbs and cities, and colleges that offer higher degrees (graduate and bachelors degrees) tend to be more expensive.\nOverall, this data indicates that, while Massachusetts has a wide range of costs for education, some degree types and institution types tend to be more expensive. On the whole, schools that offer graduate degrees tend to be more expensive than those that offer bachelor’s degrees which tend to be more expensive than those that offer associates and certificate degrees. One ethical concern we note is the lack of information about financial aid offerings/merit scholarships offered by these institutions. This data aggregates the financial cost for all students while actual cost likely varies widely between those with different income levels. To make this data more representative and useful to families and students, future iterations should add granularity to cost variables to include levels of financial aid and merit. The College Scorecard dataset is beneficial because of its transparency and clear image of each school’s statistics, which can aid families and students through the college process."
+  },
+  {
+    "objectID": "maps/to_dos.html",
+    "href": "maps/to_dos.html",
+    "title": "Tasks",
+    "section": "",
+    "text": "Make a website\n\nRender your index.qmd to make your website.\n\nIf the website doesn’t pop up go docs/index.html to look at it.\nDelete the file called first_map_files, what happens to your first map page?\n\nAdd the overview of the course to the the index as a link.\n\nEdit the about\nEdit the about.qmd to have some information about you. At the moment it is all about me. Render often and figure out what is changing as you edit."
+  },
+  {
+    "objectID": "index.html#projects-in-sds-192",
+    "href": "index.html#projects-in-sds-192",
+    "title": "Aviva Jotzke Final Website",
+    "section": "Projects in SDS 192:",
+    "text": "Projects in SDS 192:\n\nProject 1: working with data from the U.S. Department of Education\n\n\n\nProject 2: working with data from the FEC\n\n\n\nProject 3: working with map data"
+  },
+  {
+    "objectID": "index.html#other-work",
+    "href": "index.html#other-work",
+    "title": "Aviva Jotzke Final Website",
+    "section": "Other work:",
+    "text": "Other work:\nDuring the Fall 2024 semester, I was also a part of GOV/SDS 338: Political Networks. This class was a research seminar. As my final project, I conducted research on informal power in the U.S. House of Representatives. My partner and I looked into whether there was a similar gender-gap in informal leadership that is observed in formal leadership. Without getting into the details of this research, here are two examples of graphics created for that paper:\n\n\nNote that these graphics do not include a data source as they are part of a larger paper where the data source was explained."
+  },
+  {
+    "objectID": "projects/fec-analysis.html",
+    "href": "projects/fec-analysis.html",
+    "title": "SDS 192 Mini-Project 2",
+    "section": "",
+    "text": "In the 2016 election when Donald Trump was running against Hillary Clinton, how secure were incumbent seats for both Democrats and Republicans? We ask this question with the knowledge that Trump ran as the change candidate to Clinton’s establishment platform. To what extent was each party craving change from the norm?\n\nFigure 1\n\n\n\n\n\n\n\n\n\n\n\nFigure 2\n\n\n\n\n\n\n\n\n\n\n\nBlog post\nThe dataset used in this project is Fec16, with data taken from the Federal Election Commission (FEC) website. As an agency, the FEC administers federal campaign finance law and moderates financing of the U.S. House, Senate, Presidency, and Vice Presidency campaigns. The Fec16 data set contains specific data relating to candidates, committees, individual and committee contributions, and results for the 2015-2016 election, along with other financial information. While approaching this analysis, our group wondered how secure the incumbent seats were for both Democrats and Republicans in various levels of government when Donald Trump was running against Hillary Clinton. We asked this question with the knowledge that Trump ran as the change candidate to Clinton’s establishment platform. We also wanted to understand to what extent each party was craving change from the norm at the time.\nFrom our first figure, the biggest takeaway is that, in 2016, incumbents from both parties tended to win at higher rates than non-incumbents. It is commonly accepted that incumbents have a political advantage when it comes to Congressional elections and this held true even in 2016 when the country was craving change at the presidential level. Notably, Republican incumbents won at a higher rate than Democrat incumbents though Republican and Democrat non-incumbents won at similar rates. A very small number of incumbents lost their races in both parties, and more Republican non-incumbents ran unsuccessful campaigns than Democrat non-incumbents. From our second figure, the most interesting information is in the incumbent histograms. We see that Republican wins are clustered much closer to 50% than Democrat incumbent wins. This indicates that Republicans tend to more narrowly win their elections while Democrats have much more comfortable leads. This could be a symptom of gerrymandering where partisan groups have redrawn district lines to give their favored party (in this case Republicans) a slight advantage in many districts and confine the other party’s supporters to a single district (leading to large Democrat victories in that district and narrow Democrat losses in others).\nOn the whole, this analysis indicates that Americans were not craving Congressional change to the same extent they were craving change in the presidency. We did not observe a huge wave of incumbent losses nor a huge wave of non-incumbent wins. It is possible, however, that constituents with Republican incumbents were less happy with their representative as Republican incumbent wins tended to be won with a closer margin than Democrat incumbent wins; this may be an effect of gerrymandering. Although we did not notice any ethical concerns in this specific data set, joining data increases the chances of using data not for its original purpose. While the data joined in Fec16 was used to combine similar personal information about specific candidates, the “join” feature could potentially combine data sets that have different purposes and create the appearance that the data sets have more in common than they actually do.\nNote: We filtered the data to only include Democrats and Republicans. While this action removes 64 elections from the data set, we believe the data still fits the purpose and scope of our analysis."
+  },
+  {
+    "objectID": "projects/mapping.html",
+    "href": "projects/mapping.html",
+    "title": "SDS 192 Project 3",
+    "section": "",
+    "text": "Map 1\n\n\n\n\n\n\n\n\n\n\n\nMap 2\n\n\n\n\n\n\n\n\n\n\n\nBlog post\nFor this project, we utilized data collected by Jeffery Braun about Chipotle store locations. This data was collected from Chipotle websites in 2020 and represents all 50 states excluding Hawaii, Alaska, and South Dakota. Since the collection of this data, South Dakota has attained a Chipotle. This data frame includes information on the state, city, address, longitude, and latitude of all Chipotle locations in the US.\nOur first map displays the density of Chipotles in the US relative to population. There doesn’t appear to be a strong relationship between the region of the country and the number of Chipotles in a state. Overall, there are not many Chipotles per capita in the country’s Northwest and Southeast quadrants. In the Southwest and Northeast quadrants, Chipotle density is more variable and appears to vary on a state-by-state basis.\nOur second map pinpoints the specific locations of Chipotles in Massachusetts. Upon observing the map, it can be seen that Chipotle’s are mainly located in the Eastern part of the state, with the majority of them clustering in Boston. Boston is the most populated city in Massachusetts; thus, the number of Chipotles tends to increase in more urban areas. This can be seen again with the second largest number of Chipotles being located around Springfield, the third largest city by population in Massachusetts.\nWhile we see no ethical concerns with the way we used this data, the creator of the data set noted some ethical/legal concerns with the collection of the data. Braun noted that he was unsure the legality of scraping this data from Chipotle’s website. However, another company was selling the data so he presumed it was at the very least legal. Because this data set contains information that is already public and does not include information personal to individual people, we believe it to be ethically sourced and used."
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About Aviva Jotzke",
+    "section": "Contact information",
+    "text": "Contact information\nTo contact Aviva, email them at fake.email@gmail.com"
+  },
+  {
+    "objectID": "about.html#about-aviva",
+    "href": "about.html#about-aviva",
+    "title": "About Aviva Jotzke",
+    "section": "",
+    "text": "Aviva Jotzke is a junior majoring in Government and Statistical and Data Sciences at Smith College. When not studying, Aviva enjoys spending time with friends, going to concerts, watching the sky, and climbing (rocks and trees)."
+  }
+]
